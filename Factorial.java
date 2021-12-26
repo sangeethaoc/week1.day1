@@ -11,12 +11,11 @@ public class Factorial {
 }
 
 	public int fact(int n) {
-		int prod = 1,temp;
+		int prod = 1;
 		for(int i=1;i<=n;i++)
 			
 		{
-		 temp = i*prod;
-		 prod = temp;
+			prod = i*prod;
 		}
 
 		return prod;
